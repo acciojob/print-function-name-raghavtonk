@@ -2,4 +2,8 @@
 function Acciojob(){
 	alert(arguments.callee.name);
 }
+function functionName() {
+	alert(arguments.callee.name);
+}
+functionName();
 Acciojob();
